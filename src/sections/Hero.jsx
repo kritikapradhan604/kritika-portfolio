@@ -165,7 +165,7 @@ const Hero = () => {
                             View Projects
                         </motion.a>
                         <motion.a
-                            href="/images/Kritika Pradhan. cv 2026.pdf"
+                            href="/images/Kritika_Pradhan_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-secondary btn-glow"
