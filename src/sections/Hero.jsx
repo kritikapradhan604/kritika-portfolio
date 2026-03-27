@@ -165,13 +165,26 @@ const Hero = () => {
                             View Projects
                         </motion.a>
                         <motion.a
-                            href="#contact"
+                            href="/images/Kritika Pradhan. cv 2026.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="btn-secondary btn-glow"
                             whileHover={{ scale: 1.04, y: -2 }}
                             whileTap={{ scale: 0.97 }}
                             style={{ cursor: 'none', textDecoration: 'none' }}
                         >
-                            Contact Me
+                            View Resume
+                        </motion.a>
+                        <motion.a
+                            href="/images/Screenshot 2026-03-27 103219.png"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn-secondary btn-glow"
+                            whileHover={{ scale: 1.04, y: -2 }}
+                            whileTap={{ scale: 0.97 }}
+                            style={{ cursor: 'none', textDecoration: 'none' }}
+                        >
+                            View Certificate
                         </motion.a>
 
                         <div style={{ display: 'flex', gap: '0.75rem', marginLeft: '0.5rem' }}>
