@@ -7,6 +7,7 @@ const navLinks = [
     { label: 'Projects', href: '#projects' },
     { label: 'Skills', href: '#skills' },
     { label: 'Experience', href: '#experience' },
+    { label: 'Certifications', href: '#certifications' },
     { label: 'Contact', href: '#contact' },
 ];
 
@@ -89,7 +90,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
                     {/* Resume button */}
                     <motion.a
-                        href="#"
+                        href={import.meta.env.BASE_URL + "images/Kritika%20CV%20updated.pdf"}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="btn-primary btn-glow"

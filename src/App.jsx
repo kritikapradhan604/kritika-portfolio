@@ -13,6 +13,7 @@ import Projects from './sections/Projects';
 import Experience from './sections/Experience';
 import Skills from './sections/Skills';
 import Analytics from './sections/Analytics';
+import Certifications from './sections/Certifications';
 import Contact from './sections/Contact';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             <Projects />
             <Skills />
             <Experience />
+            <Certifications />
             <Analytics />
             <Contact />
           </main>

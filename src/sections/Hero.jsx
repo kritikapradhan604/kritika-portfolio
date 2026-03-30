@@ -165,7 +165,7 @@ const Hero = () => {
                             View Projects
                         </motion.a>
                         <motion.a
-                            href="/images/Kritika_Pradhan_Resume.pdf"
+                            href={import.meta.env.BASE_URL + "images/Kritika%20CV%20updated.pdf"}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-secondary btn-glow"
@@ -176,15 +176,13 @@ const Hero = () => {
                             View Resume
                         </motion.a>
                         <motion.a
-                            href="/images/Screenshot 2026-03-27 103219.png"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="#certifications"
                             className="btn-secondary btn-glow"
                             whileHover={{ scale: 1.04, y: -2 }}
                             whileTap={{ scale: 0.97 }}
                             style={{ cursor: 'none', textDecoration: 'none' }}
                         >
-                            View Certificate
+                            View Certifications
                         </motion.a>
 
                         <div style={{ display: 'flex', gap: '0.75rem', marginLeft: '0.5rem' }}>

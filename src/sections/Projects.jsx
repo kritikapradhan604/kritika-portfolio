@@ -4,14 +4,14 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
   {
-    title: 'Smart Attendance & Performance Tracker',
-    desc: 'Hybrid Java–Python system for attendance tracking and performance analysis. Built a backend using Java (OOPs & JDBC) with MySQL integration and Python algorithms for generating performance insights.',
-    tags: ['Java', 'Python', 'MySQL', 'JDBC'],
+    title: 'AI Adaptive Path Finding Engine',
+    desc: 'Intelligent pathfinding system that adapts routes in real-time based on dynamic obstacles and changing terrain using advanced heuristic search algorithms.',
+    tags: ['Python', 'AI', 'Search Algorithms'],
     isAI: true,
     color: 'var(--neon-blue)',
     demo: '#',
     github: '#',
-    stats: 'Automated Insight Generation',
+    stats: 'Real-time Path Adaptation',
   },
   {
     title: 'Campus Complaint Management System',
